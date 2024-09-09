@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HF Material de Construção</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Pagina inical</a> </li>
+			<li><a href="material.html"> Materiais</a> </li>
+			<li><a href="contato.html">Contato</a> </li>
+		</ul>
+	</nav>
+	<section id="contato">
+		<header>
+			<h1>Material de Construção HF</h1>
+			<form id="pesquisa" method="get"><p><label> Pesquisa: </label><input type="text" name="tPesquisa" id="cPesquisa"></p>
+			</form>
+		</header>
+		<footer>
+			<address>Henrique Ferreira &copy;</address>
+		</footer>
+	</section>
+	<h1>Entre em contato conosco: </h1>
+
+	<form method="post" id="f_contato" action="mailto=henrique.ferreira1@estudante.ifgoiano.edu.br">
+		<fieldset>
+			<legend id="usuario">Identidade do Usuário</legend>
+			<p><label for="cNome">Nome</label><input type="text" name="tNome" id="cNome" size="100" maxlength="30" placeholder="Nome Completo"> </p>
+			<p><label for= “cEmail”>e-mail</label><input type= “email” name= “tEmail” id= “cEmail” size= “25” maxlength= “40” placeholder= “E-mail Válido”></p>
+			<legend>Data</legend>
+			<p><input type="date" name="tDate" id="cDate"> <label for="cDate">Dia do comunicado</label> </p>
+			<legend id="class">Classificação do produto</legend>
+			<p><input type="radio" name="tclass" id="cgostei"><label for="cClass"></label> Gostei do produto</p>
+			<p><input type="radio" name="tclass" id="cngostei"><label for="cClass"></label> Não gostei do produto</p>
+			<legend id="mensagem">Escreva sua mensagem (queixa/agredecimento)</legend>
+			<p><input type="text" name="tmensagem" id="cmensagem"> <label for="cmensagem"></label> Mensagem</p>
+		</fieldset>
+	</form>
+
+</body>
+</html>

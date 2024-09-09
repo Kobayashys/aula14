@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header{
+	background-color: cyan;
+}
+
+address{
+	background-color: black;
+	color: cyan;
+	text-align: right;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+
+#pesquisa{
+	text-align: right;
+}
+#menu{
+	display: block;
+}
+#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+}
+#menu li{
+	display: inline-block;
+	background-color: hotpink;
+	padding: 10px;
+	margin: 4px;
+}
+#contato{
+	padding: 50px;
+}
+
+#colunas{
+	width: 2000px;
+	height: 700px;
+}
+#col_1{
+	padding: 10px;
+}
+#col_2{
+	padding: 10px;
+}
+#col_3{
+	padding: 10px;
+}
